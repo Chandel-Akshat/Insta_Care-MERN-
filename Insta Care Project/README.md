@@ -57,19 +57,22 @@ JWT_SECRET=YOUR_JWT_SECRET
 
 
 ### Sign up page
-<img src=".">
+<img src="./client/src/images/signup.png">
 
 
 ### Sign in page
+<img src="./client/src/images/signin.png">
 
 
 ### Profile page
+<img src="./client/src/images/profile.png">
 
 
 ### All Doctors page
 
 
 ### Apply for doctor page
+<img src="./client/src/images/docapply.png">
 
 
 ### Admin all users dashboard
