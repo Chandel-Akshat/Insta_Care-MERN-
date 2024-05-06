@@ -38,16 +38,6 @@ PORT=5000
 MONGO_URI=YOUR_OWN_MONGODB_URL
 JWT_SECRET=YOUR_JWT_SECRET
 ```
-<li>Add .env file in client directory for the frontend which contains</li>
-
-```
-
-REACT_APP_SERVER_DOMAIN=http://127.0.0.1:5000/api
-REACT_APP_CLOUDINARY_BASE_URL=https://api.cloudinary.com/v1_1/{CLOUD_NAME}/image/upload
-REACT_APP_CLOUDINARY_CLOUD_NAME=YOUR_OWN_CLOUDINARY_CLOUD_NAME
-REACT_APP_CLOUDINARY_PRESET=YOUR_OWN_CLOUDINARY_PRESET
-```
-**Note:** Replace the **{CLOUD_NAME}** with your own cloudinary cloud name
 
 <li>To run the backend, go to root directory in the terminal and execute: npm start</li>
 <li>To run the frontend, open a new terminal and run 'cd client/' to go to client directory and execute: npm start</li>
@@ -67,6 +57,7 @@ REACT_APP_CLOUDINARY_PRESET=YOUR_OWN_CLOUDINARY_PRESET
 
 
 ### Sign up page
+<img src=".">
 
 
 ### Sign in page
