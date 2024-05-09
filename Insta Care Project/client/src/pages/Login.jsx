@@ -51,13 +51,14 @@ function Login() {
               toast.error("Unable to login user");
             }
           },
+          // error:"Unable to login",
           loading: "Logging user...",
         }
       );
       localStorage.setItem("token", data.token);
       dispatch(setUserInfo(jwt_decode(data.token).userId));
       getUser(jwt_decode(data.token).userId);
-    } catch (error) {
+    } catch(error){
       return error;
     }
   };
