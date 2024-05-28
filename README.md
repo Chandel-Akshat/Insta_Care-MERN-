@@ -51,3 +51,57 @@ To get a local copy up and running follow these simple steps.
    ```sh
    git clone https://github.com/yourusername/InstaCare.git
    cd InstaCare
+Install backend dependencies:
+
+sh
+Copy code
+cd backend
+npm install
+Install frontend dependencies:
+
+sh
+Copy code
+cd ../frontend
+npm install
+Configure environment variables:
+Create a .env file in the backend directory and add your MongoDB connection string and JWT secret key:
+
+sh
+Copy code
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+Run the backend server:
+
+sh
+Copy code
+cd backend
+npm start
+Run the frontend server:
+
+sh
+Copy code
+cd ../frontend
+npm start
+Usage
+Once the application is set up and running, you can access it in your web browser at http://localhost:3000. Clinics can sign up, log in, manage appointments, send reminders, and utilize marketing tools.
+
+Contributing
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+Fork the Project
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+Push to the Branch (git push origin feature/AmazingFeature)
+Open a Pull Request
+License
+Distributed under the MIT License. See LICENSE for more information.
+
+Contact
+Your Name - Your Email
+
+Project Link: https://github.com/yourusername/InstaCare
+
+vbnet
+Copy code
+
+Make sure to replace the placeholder information (like the GitHub repository URL, your name, and email)
