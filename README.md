@@ -48,6 +48,6 @@ To get a local copy up and running follow these simple steps.
 ### Installation Steps
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/InstaCare.git
+   [git clone https://github.com/Chandel-Akshat/Insta_Care-MERN-.git
    cd InstaCare
 
